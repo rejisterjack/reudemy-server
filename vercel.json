@@ -1,15 +1,15 @@
-{
+ver{
   "version": 2,
   "builds": [
     {
-      "src": "index.js",
+      "src": "server.js",
       "use": "@vercel/node"
     }
   ],
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "index.js"
+      "destination": "server.js"
     }
   ]
 }
