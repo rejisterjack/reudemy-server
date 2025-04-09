@@ -25,6 +25,8 @@ nodeCron.schedule("0 0 0 5 * *", async () => {
   }
 });
 
+export default app;
+
 app.listen(process.env.PORT, () => {
   console.log(`Server is working on port: ${process.env.PORT}`);
 });
